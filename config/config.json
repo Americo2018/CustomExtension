@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "custom-extensions-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/customExtensions/CustomExtensionsApplicationCustomizer.js",
+          "manifest": "./src/extensions/customExtensions/CustomExtensionsApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CustomExtensionsApplicationCustomizerStrings": "lib/extensions/customExtensions/loc/{locale}.js"
+  }
+}
