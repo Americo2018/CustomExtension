@@ -1,0 +1,46 @@
+
+div[class^="feedback"],
+div[class^="hideTabs_"] {
+    display: none;
+}
+
+
+div[class^="homePageContent_"],
+.CanvasZone {
+    max-width: 100% !important;
+}
+
+
+@media screen and (min-width: 641px) {
+    .CanvasSection--read .ControlZone {
+        margin-top: 0px !important;
+    }
+}
+
+
+div[class^="pageTitle_"] div[class^="imageFrame"] {
+    height: 78px !important;
+}
+
+/* Hero customization */
+div[class^="hero_"] {
+    height: 300px !important;
+}
+
+div[data-sp-a11y-id="CanvasZone_2"] {
+    background: pink !important;
+}
+
+div[data-sp-a11y-id="CanvasZone_2"] div.ControlZone  {
+    margin-bottom: 0px !important;
+}
+
+div[data-sp-a11y-id="CanvasZone_2"] div.ControlZone div[class^="hero_"] {
+    height: 150px !important;
+}
+
+div[data-sp-a11y-id="CanvasZone_2"] div[class^="title_"]::before {
+    background: transparent !important;
+    height: 0px !important;
+    width: 0px !important;
+}
